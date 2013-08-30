@@ -1,0 +1,18 @@
+GIT
+  remote: git://github.com/clearsightstudio/ProMotion.git
+  revision: c239679b5c95d0b0643a18d8631e0a67572412e2
+  branch: version-1.0
+  specs:
+    ProMotion (1.0.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    awesome_print_motion (0.1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  ProMotion!
+  awesome_print_motion
