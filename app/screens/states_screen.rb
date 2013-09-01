@@ -1,5 +1,4 @@
 class StatesScreen < PM::TableScreen
-  searchable placeholder: "Search states"
   attr_accessor :container
 
   def table_data
