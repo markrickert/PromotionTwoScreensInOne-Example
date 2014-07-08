@@ -23,8 +23,8 @@ class HomeScreen < PM::Screen
     true
   end
 
-  def tapped_state(args={})
-    @map.go_to_state args[:cell][:title]
+  def tapped_state(args = {})
+    @map.go_to_state(args[:name])
   end
 
 end

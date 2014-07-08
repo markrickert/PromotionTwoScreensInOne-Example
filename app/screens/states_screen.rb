@@ -4,7 +4,7 @@ class StatesScreen < PM::TableScreen
   def table_data
     [{
       title: "",
-      cells: State.all.map { |state| { title: state.name, action: :tapped_state } }
+      cells: State.all.map { |state| { title: state.name, action: :tapped_state, arguments:{name: state.name} } },
     }]
   end
 

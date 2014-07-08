@@ -10,8 +10,8 @@ class MapScreen < PM::MapScreen
       unless error
         state = points.first
         if state
-          ap state.region.center
-          ap state.region.radius
+          puts state.region.center
+          puts state.region.radius
           my_region = MKCoordinateRegionMakeWithDistance(state.region.center, state.region.radius*2, state.region.radius*2)
           set_region my_region, true
         end
