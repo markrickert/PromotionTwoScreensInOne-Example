@@ -4,7 +4,7 @@ class HomeScreen < PM::Screen
 
   def on_load
     @map = MapScreen.new
-    @table = StatesScreen.new(container: self)
+    @table = StatesScreen.new(container: WeakRef.new(self))
   end
 
   def will_appear
